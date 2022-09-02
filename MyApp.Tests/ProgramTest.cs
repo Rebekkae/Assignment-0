@@ -13,4 +13,16 @@ public class ProgramTest
         // Assert
         Assert.True(result);
     }
+
+    [Fact]
+    public void Year_1900_returns_false() {
+        // Arrange
+        var leap = new Program();
+
+        // Act
+        var result = leap.IsLeapYear(1900);
+
+        // Assert
+        Assert.False(result);
+    }
 }
