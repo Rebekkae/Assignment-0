@@ -6,10 +6,15 @@ public class Program {
 
     public bool IsLeapYear(int year) {
 
-            if(year%4 == 0) {
-                return true;
-            }
+        bool isLeapYear = false;
 
-            return false;
+        if(year%4 == 0) {
+            isLeapYear = true;
+        }
+        if(year%100 == 0) {
+            isLeapYear = false;
+        }
+
+        return isLeapYear;
     }
 }
