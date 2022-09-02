@@ -14,6 +14,9 @@ public class Program {
         if(year%100 == 0) {
             isLeapYear = false;
         }
+        if(year%400 == 0) {
+            isLeapYear = true;
+        }
 
         return isLeapYear;
     }
