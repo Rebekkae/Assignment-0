@@ -14,7 +14,27 @@ public class Program {
         if(year%100 == 0) {
             isLeapYear = false;
         }
+        if(year%400 == 0) {
+            isLeapYear = true;
+        }
 
         return isLeapYear;
+    }
+
+    public string IsLeapYearInput(string yearString) {
+
+        int year = int.Parse(yearString);
+
+        if(IsLeapYear(year) == true) {
+            return "yay";
+        }
+        else {
+            return "nay";
+        }
+    }
+
+    public void isLeapYearPrompt() {
+        string result = IsLeapYearInput(Console.ReadLine() + "");
+        Console.WriteLine(result);
     }
 }

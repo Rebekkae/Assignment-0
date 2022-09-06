@@ -25,4 +25,16 @@ public class ProgramTest
         // Assert
         Assert.False(result);
     }
+
+    [Fact]
+    public void Year_1700_returns_nay() {
+        // Arrange
+        var leap = new Program();
+
+        // Act
+        var result = leap.IsLeapYearInput("1700");
+
+        // Assert
+        result.Should().Be("nay");
+    }
 }
