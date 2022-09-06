@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6j7Fme6O4d4k2uc7svDpgL9N4MFkk8NLcQNW9xaSj3xmvVhdbp8BX142MdfM2Y9oyDhQyxKkg+EgnfmcJTXQfw==",
+  "dgSpecHash": "GVUXMdjU5mJyqJYt8vp81M/6SuoZ63OqQG1u3CqHCQA0YqRjoROGxW5IuMzYf7HJ99pK9CdDjgIFm8pgM1bJlw==",
   "success": true,
-  "projectFilePath": "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
+  "projectFilePath": "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/rebekkaeriksen/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/rebekkaeriksen/.nuget/packages/fluentassertions/6.7.0/fluentassertions.6.7.0.nupkg.sha512",

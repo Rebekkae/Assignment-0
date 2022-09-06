@@ -6,6 +6,10 @@ public class Program {
 
     public bool IsLeapYear(int year) {
 
+        if(year < 1582) {
+            throw new InvalidYearException("Year must be 1582 or later");
+        }
+
         bool isLeapYear = false;
 
         if(year%4 == 0) {

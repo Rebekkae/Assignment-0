@@ -6277,11 +6277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
+      "projectUniqueName": "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
       "projectName": "MyApp.Tests",
-      "projectPath": "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
+      "projectPath": "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp.Tests/MyApp.Tests.csproj",
       "packagesPath": "/Users/rebekkaeriksen/.nuget/packages/",
-      "outputPath": "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp.Tests/obj/",
+      "outputPath": "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rebekkaeriksen/.nuget/NuGet/NuGet.Config"
@@ -6296,8 +6296,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp/MyApp.csproj": {
-              "projectPath": "/Users/rebekkaeriksen/Library/CloudStorage/GoogleDrive-beksen2@gmail.com/Mit drev/IT-Universitetet/Analysis, Design and Software Architecture (Autumn 2022)/Assignments/Assignment-0/MyApp/MyApp.csproj"
+            "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp/MyApp.csproj": {
+              "projectPath": "/Users/rebekkaeriksen/Documents/GitHub/Assignment-0/MyApp/MyApp.csproj"
             }
           }
         }

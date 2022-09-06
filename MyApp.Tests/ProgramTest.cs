@@ -37,4 +37,16 @@ public class ProgramTest
         // Assert
         result.Should().Be("nay");
     }
+
+    [Fact]
+    public void Year_1581_throws_exeption() {
+        // Arrange
+        var leap = new Program();
+
+        // Act
+        var caughtException = Assert.Throws<InvalidYearException>(() => leap.IsLeapYear(1581));
+
+        // Assert
+        Assert.Equal("Year must be 1582 or later", caughtException.Message);
+    }
 }
