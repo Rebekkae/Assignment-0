@@ -10,19 +10,21 @@ public class Program {
             throw new InvalidYearException("Year must be 1582 or later");
         }
 
-        bool isLeapYear = false;
-
-        if(year%4 == 0) {
-            isLeapYear = true;
+        if(year%4 != 0) {
+            return false;
         }
+
         if(year%100 == 0) {
-            isLeapYear = false;
+            if(year%400 == 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        } 
+        else {
+            return true;
         }
-        if(year%400 == 0) {
-            isLeapYear = true;
-        }
-
-        return isLeapYear;
     }
 
     public string IsLeapYearInput(string yearString) {
