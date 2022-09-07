@@ -17,12 +17,19 @@
 
 \begin{document}
 
-\title{IsLeapYear algorithm diagram}
-\author{Rebekka Viktoria Mejlhede Eriksen}
-\maketitle
-\includepdf[pages=-]{Diagrams/LeapYearUML.pdf}
+\section{IsLeapYear Diagram}
+\begin{center}
+    \includegraphics[width=\textwidth]{Diagrams/LeapYearUML.pdf}
+    \label{FYMap}
+\end{center}
+
 \newpage
 
-This diagram shows how the program acts when executed.
+\section{IsLeapYear Diagram description}
+
+This diagram shows how the program acts when executed. 
+The user will first be asked for input, that is then validated in two steps. If the typed input cannot be converted to an integer, it will raise an exception, or else it will go to the next validation step. If it converts to am integer, but the year is earlier than 1582, it will also raise an exception. But if the input passes both of these steps, it will go on to the actual leap year determination.
+First it will check if the year input is divisible by 4. If no, then it will go straight to the conclusion that the input is NOT a leap year.
+If yes, then check if the year is divisible by 100. If it is not divisible by 100, then go to the conclusion that it is a leap year. If it is divisible by 100, the check if it is also divisible by 400. If it is divisible by 400, then it is a leap year. If it is not divisible by 400 also, then it is NOT a leap year.
 
 \end{document}
