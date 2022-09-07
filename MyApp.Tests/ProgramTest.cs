@@ -49,4 +49,16 @@ public class ProgramTest
         // Assert
         Assert.Equal("Year must be 1582 or later", caughtException.Message);
     }
+
+    [Fact]
+    public void String_invalid_throws_exeption() {
+        // Arrange
+        var leap = new Program();
+
+        // Act
+        var caughtException = Assert.Throws<InvalidYearException>(() => leap.IsLeapYearInput("Invalid"));
+
+        // Assert
+        Assert.Equal("Input is not a valid year!", caughtException.Message);
+    }
 }
