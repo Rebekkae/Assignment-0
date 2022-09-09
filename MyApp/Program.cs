@@ -2,9 +2,12 @@
 
 public class Program {
 
-    static public void Main(String[] args) {}
+    static public void Main(String[] args) {
 
-    public bool IsLeapYear(int year) {
+        IsLeapYearPrompt();
+    }
+
+    static public bool IsLeapYear(int year) {
 
         if(year < 1582) {
             throw new InvalidYearException("Year must be 1582 or later");
@@ -27,7 +30,7 @@ public class Program {
         }
     }
 
-    public string IsLeapYearInput(string yearString) {
+    static public string IsLeapYearInput(string yearString) {
 
         try {
             int year = int.Parse(yearString);
@@ -42,12 +45,10 @@ public class Program {
         catch (Exception e) {
             Console.WriteLine(e.Message);
             throw new InvalidYearException("Input is not a valid year!");
-        }
-        
+        }  
     }
-
-    public void IsLeapYearPrompt() {
-        string result = IsLeapYearInput(Console.ReadLine() + "");
-        Console.WriteLine(result);
+    static void IsLeapYearPrompt() {
+            string result = IsLeapYearInput(Console.ReadLine() + "");
+            Console.WriteLine(result);
     }
 }
